@@ -1,7 +1,7 @@
 <html>
   <script>
   var url_ = "https://chocolauwu.herokuapp.com/";
-  var currentUrl = new URL(window.location.href);
+  var currenturl = new URL(window.location.href);
   var redirectTo = currenturl.searchParams.get("redirectTo");
   if (redirectTo != null) {
     url_+="/"+redirectTo;
