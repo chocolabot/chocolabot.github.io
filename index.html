@@ -4,7 +4,7 @@
   var currenturl = new URL(window.location.href);
   var redirectTo = currenturl.searchParams.get("redirectTo");
   if (redirectTo != null) {
-    url_+="/"+redirectTo;
+    url_+=redirectTo;
   }
   document.write("Redirecting you to "+url_+" !");
   window.location.href=url_;
